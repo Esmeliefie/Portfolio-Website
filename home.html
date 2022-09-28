@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Esmeralda kok personal website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+
+  <body>
+
+    <header>
+        <div class="logo">
+            <img src="images/logo-01.jpg"alt="Dev Esmeralda smiling" width="200px"/>
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">What I do</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <!--Intro-->
+
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Esmeralda Kok</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Dev Pending</p>
+        <img src="images/intro-image.jpg" alt="Esmeralda smiling" class="intro__img"/>
+    </section>
+
+    <!--Services-->
+
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services" >
+            <div class="service">
+                <h3>Blog</h3>
+                <p>Follow me on my Journey to become a tech savy woman in the techy industry.Here I document my coding journey as well as useful tips and tricks I pick up along the way...</p>
+            </div>
+            
+            <div class="service">
+                <h3>Hobby Designer</h3>
+                <p>I love designing and creating fun and beautiful interfaces. I am open to collaborate and join up on any projects</p>
+            </div> 
+            
+            <div class="service">
+                <h3>Learning journey</h3>
+                <p>I am currently doing the scrimba frontend career Path as well as the alx software engineering bootcamp. </p>
+            </div>
+        </div>
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About me-->
+
+    <section class="about-me" id="about">
+
+        <h2 class="section__title section__title--about">Who am I</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & Developer based in Mossel Bay </p>
+        <div class="about-me__body">
+            <p>I Always though I'd be a latte sipping, accountant at some major company that races open wheelers on my downtime. From a young age numbers and fast cars excited me! Now I am studying financial accounting at a Private college and it kind of bores me. After Covid knocked the world down I realized that life is short and I shouldnt be doing something if I don't like it.</p>
+            <p>And then my husband introduced me to the wonders of programming. At first anything tech related really bored me but like a little bug it bit me and I've been hooked ever since. </p>
+
+        </div>
+        <img src="images/about-me-img.jpg" alt="Esmeralda walking" class="about-me__img"/>
+    </section>
+
+    <!-- My Work -->
+
+    <section class="my-work" id="work">
+
+        <h2 class="section__title section__title--work">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my Projects</p>
+                    
+        <div class="portfolio">
+
+            <a href="scoreboard.html" class="portfolio__item" target="_blank">
+                <img src="images/scoreboard-01.png" alt="scoreboard" class="portfolio__img">
+            </a>
+            <a href="password-generator.html" class="portfolio__item" target="_blank">
+                <img src="images/password-generator-01.png" alt="password generator" class="portfolio__img">
+            </a>
+            <a href="birthday-gift-site.html" class="portfolio__item" target="_blank">
+                <img src="images/birthday-gift-site-01.png" alt="gift site" class="portfolio__img">
+            </a>
+            <a href="blackjack.html" class="portfolio__item" target="_blank">
+                <img src="images/blackjack-01.png" alt="black jack game" class="portfolio__img">
+            </a>
+            <a href="hometown.html" class="portfolio__item" target="_blank">
+                <img src="images/hometown-01.png" alt="hometown project" class="portfolio__img">
+            </a>
+            <a href="google-clone.html" class="portfolio__item" target="_blank">
+                <img src="images/google-clone-01.png" alt="google ui clone" class="portfolio__img">
+            </a>
+            <a href="space-exploration.html" class="portfolio__item" target="_blank" >
+                <img src="images/space-exploration-01.png" alt="Space exploration" class="portfolio__img">
+            </a>
+            <a href="laps-counter.html" class="portfolio__item" target="_blank">
+                <img src="images/laps-counter-01.png" alt="Laps counter" class="portfolio__img">
+            </a>
+            <a href="unit-converter.html" class="portfolio__item" target="_blank">
+                <img src="images/unit-converter-01.png" alt="unit-converter" class="portfolio__img">
+            </a>
+            <a href="nft-page.html" class="portfolio__item" target="_blank">
+                <img src="images/nft-page-01.png" alt="nft page" class="portfolio__img">
+            </a>
+        </div>
+    </section>
+    
+    <!--Footer-->
+
+    <footer class="footer">
+
+        <a href="mailto:esykok@gmail.com" class="footer__link">esykok@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="https://codepen.io/esmeliefie"><i class="fab fa-codepen"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/esmeralda-kok-8424621b4/"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/Esmeliefie"><i class="fab fa-github"></i></a></li>
+        </ul>
+
+    </footer>
+
+	<script src="index.js"></script>
+  </body>
+
+</html>
