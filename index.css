@@ -432,7 +432,7 @@ header {
     text-align: center;
     padding: 2.5em 0;
     font-size: var(--fs-h3);
-    
+    margin-top: 20px;
 }
 
 .footer a { 
@@ -495,11 +495,14 @@ header {
     overflow-x: scroll;
     scroll-snap-type: both mandatory;
     scroll-padding: 1rem;
+    max-width:1000px;
+    margin:0 auto;
+    padding-bottom: 20px;
   }
   
   .snippet-gallery::-webkit-scrollbar {
     overflow-x: scroll;
-   /* width:auto;*/
+   padding-bottom: 10px;
   }
 
 
@@ -520,8 +523,9 @@ header {
   .snippet-gallery-item {
     scroll-snap-align: center;
     display: inline-block;
+    margin:0 auto;
     font-size: 0;
     background-color: var(--clr-light);
     box-shadow: 3px 9px 9px 0 var(--clr-dark);
-    margin: 0;
+
   }
